@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#img-bg {
+    background-image: url("/images/TableBackdrop.jpg") ;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#el-title {
+    color: goldenrod;
+}
+
+#el-message {
+    font-style: italic;
+}
+
+#btn-start {
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bolder;
+
+    width: 150px;
+    padding: 5px 10px;
+    
+    border: solid 0;
+    border-radius: 2px;
+}
