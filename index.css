@@ -24,14 +24,20 @@ body {
     font-style: italic;
 }
 
-#btn-start {
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons button {
     background-color: goldenrod;
     color: #016f32;
     font-weight: bolder;
-
+    
     width: 150px;
     padding: 5px 10px;
-    
+    margin: 3px 0;
+
     border: solid 0;
     border-radius: 2px;
 }
